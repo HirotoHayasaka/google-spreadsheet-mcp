@@ -1,5 +1,8 @@
 # google-spreadsheet-mcp
 
+[![npm version](https://badge.fury.io/js/google-spreadsheet-mcp.svg)](https://www.npmjs.com/package/google-spreadsheet-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 An MCP (Model Context Protocol) server for Google Sheets. Enables AI assistants like Claude to read, write, and format Google Spreadsheets.
 
 ## Installation

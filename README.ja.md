@@ -1,5 +1,8 @@
 # google-spreadsheet-mcp
 
+[![npm version](https://badge.fury.io/js/google-spreadsheet-mcp.svg)](https://www.npmjs.com/package/google-spreadsheet-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Google Sheets 用の MCP (Model Context Protocol) サーバーです。Claude などの AI アシスタントから Google スプレッドシートの読み書き・フォーマット操作が可能になります。
 
 ## インストール

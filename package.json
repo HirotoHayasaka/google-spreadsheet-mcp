@@ -22,7 +22,8 @@
     "lint:fix": "eslint . --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "google-sheets",
@@ -34,6 +35,14 @@
   ],
   "author": "HirotoHayasaka",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HirotoHayasaka/google-spreadsheet-mcp"
+  },
+  "homepage": "https://github.com/HirotoHayasaka/google-spreadsheet-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/HirotoHayasaka/google-spreadsheet-mcp/issues"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.1.0",
     "dotenv": "^16.3.1",
